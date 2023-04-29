@@ -1,0 +1,112 @@
+@media screen and (max-width: 992px) and (min-width: 577px) {
+  /* ban ner*/
+  .banner-info {
+    top: 25%;
+    left: 15%;
+  }
+  .info-nav {
+    width: 30px;
+  }
+  .nav-bar {
+    border-bottom: 3px solid rgb(192, 192, 187);
+  }
+  .nav-bar-menu {
+    border-left: 1px solid rgb(192, 192, 187);
+    border-right: 1px solid rgb(192, 192, 187);
+  }
+  .info-nav img {
+    display: none;
+  }
+  /*set info*/
+  .container1 {
+    display: flex;
+    padding: 10px 0;
+  }
+  .section-title {
+    font-size: 20px;
+  }
+
+  /*thong tin ca nhan*/
+  #personal-info .info {
+    display: block;
+  }
+  .submit-email {
+    display: none;
+  }
+  .icon-info {
+    font-size: large;
+  }
+
+  /* thong tin nghe ngiep*/
+  .job-content .section-content {
+    display: block;
+  }
+  .control-view {
+    display: none !important;
+  }
+
+  /*set job-info */
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    align-items: stretch;
+    margin: 0;
+  }
+  .ic-content h1 {
+    font-size: 24px;
+  }
+  .control-view {
+    display: none;
+    justify-content: center;
+  }
+
+  /* phan chung chi giai thuong */
+  .container3 {
+    margin: 10px;
+  }
+  .cc-web {
+    display: flex;
+    flex-direction: column;
+  }
+  .cc-java {
+    display: flex;
+    flex-direction: column;
+  }
+  .cc-data {
+    display: flex;
+    flex-direction: column;
+  }
+  .chung-chi img {
+    width: 250px;
+    padding-bottom: 30px;
+  }
+
+  /* phan du an */
+  .container-du-an {
+    gap: 5px;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .container-du-an div img {
+    width: 180px;
+  }
+  .nen2021 {
+    width: 45px;
+    height: 30px;
+    padding-left: 5px;
+    grid-area: 1/1/3/2;
+  }
+  .icon-user-1 {
+    grid-area: 1/2/2/3;
+  }
+  .funix {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .container4 {
+    padding: 0;
+  }
+}

@@ -1,0 +1,102 @@
+@media screen and (max-width: 576px) {
+  /* set banner */
+  .banner-info {
+    position: absolute;
+    top: 15%;
+    left: 1%;
+    width: 500px;
+  }
+  .banner-info h1 {
+    font-size: 80%;
+  }
+  .info-nav img {
+    display: none;
+  }
+
+  /* set navbar */
+  .nav-bar {
+    display: block;
+    height: auto;
+    text-align: left;
+    background-color: rgba(242, 238, 239, 0.996);
+  }
+  .nav-bar div {
+    width: auto;
+    height: 40px;
+    max-width: 600px;
+  }
+  #personal-info .info {
+    display: block;
+  }
+  .submit-email {
+    display: none;
+  }
+  .icon-info {
+    font-size: large;
+  }
+
+  /*set info*/
+  .container1 {
+    flex-direction: column;
+    width: 100%;
+  }
+  #target {
+    width: 100%;
+  }
+  #personal-info {
+    width: 100%;
+  }
+
+  /*set job-info */
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .job-content {
+    width: 100%;
+  }
+  .job-content .section-content {
+    display: block;
+  }
+  .control-view {
+    display: none !important;
+  }
+
+  /*SET CHUNG CHI GIAI THUONG */
+
+  .container-cc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .cc-java {
+    border-left: none;
+    border-top: 1px solid #d6c08d;
+    padding-top: 30px;
+  }
+  /*phan du an*/
+  .container-du-an {
+    flex-direction: column;
+  }
+  .du-an-cv,
+  .du-an-thu-c,
+  .du-an-news {
+    margin: 5px 10px;
+  }
+  .funix {
+    display: inline;
+    border-top: 1px solid rgb(201, 45, 45);
+  }
+  .nen2021 {
+    background-color: #199cdb;
+    border-radius: 25%;
+    width: 50px;
+    padding-left: 5px;
+    margin: 0 10px;
+  }
+  .container4 h1 {
+    margin-left: 50px;
+    font-size: 36px;
+  }
+}
